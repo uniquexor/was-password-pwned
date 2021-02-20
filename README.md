@@ -11,7 +11,7 @@ composer require unique/was-password-pwned
 ## Usage
 ```php
     $checker = new PasswordChecker();
-    $count = $checker->checkPassword( sha1( 'my-password' ) );
+    $count = $checker->checkIfPasswordPwned( sha1( 'my-password' ) );
     if ( $count ) {
 
         echo 'Your password has been leaked and found in ' . $count . ' databases.';
