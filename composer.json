@@ -1,0 +1,24 @@
+{
+  "name": "unique/was-password-pwned",
+  "description": "A small tool to check if a password has been leaked against haveibeenpwned.com database.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Algirdas Gurevičius",
+      "email": "a.gurevicius@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "unique\\waspasswordpwned\\": "src/"
+    }
+  }
+}
